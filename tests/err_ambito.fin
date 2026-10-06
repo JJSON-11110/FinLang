@@ -1,0 +1,5 @@
+// ESPERA: E01
+{
+    num temporal = 5;
+}
+mostrar temporal;

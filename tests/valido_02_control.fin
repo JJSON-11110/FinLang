@@ -1,0 +1,14 @@
+// ESPERA: OK
+dinero ahorro = 500 USD;
+num mes = 0;
+bool meta = falso;
+mientras (!meta && mes < 36) {
+    ahorro = ahorro + 200 USD;
+    mes = mes + 1;
+    si (ahorro >= 5000 USD) {
+        meta = verdadero;
+    } sino {
+        mostrar "Aún no se alcanza la meta";
+    }
+}
+mostrar "Meses:", mes;

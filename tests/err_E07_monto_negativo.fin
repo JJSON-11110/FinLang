@@ -1,0 +1,6 @@
+// ESPERA: E07
+prestamo personal {
+    monto: -1000 PEN;
+    tea: 18%;
+    plazo: 12;
+}

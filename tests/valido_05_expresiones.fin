@@ -1,0 +1,10 @@
+// ESPERA: OK
+dinero a = 1000 PEN;
+dinero b = 250 PEN;
+tasa t = 2.5%;
+num k = 2 + 3 * 4;
+bool ok = (a > b) && !(k == 14) || a != b;
+dinero c = (a - b) * t + b / 2;
+dinero[USD] d = convertir(c, USD, 0.27);
+num veces = a / b;
+mostrar "Resultado:", c, d, veces, ok;

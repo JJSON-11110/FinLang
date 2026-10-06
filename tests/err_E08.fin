@@ -1,0 +1,5 @@
+// ESPERA: E08
+num n = 3;
+si (n) {
+    mostrar "x";
+}

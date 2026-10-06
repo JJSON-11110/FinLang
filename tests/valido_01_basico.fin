@@ -1,0 +1,10 @@
+// ESPERA: OK
+dinero saldo = 15000 PEN;
+tasa tem = 1.5%;
+num meses = 12;
+dinero[PEN] total;
+total = saldo;
+para i desde 1 hasta meses {
+    saldo = saldo + saldo * tem;
+}
+mostrar "Saldo final:", saldo;

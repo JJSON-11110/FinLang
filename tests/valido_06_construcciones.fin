@@ -1,0 +1,47 @@
+// ESPERA: OK
+// Cubre los 5 ejemplos de cada construcción del informe (sección 3).
+num meses = 12;
+dinero saldo = 15000 PEN;
+tasa tem = 1.5%;
+bool meta = falso;
+dinero[USD] ahorro = 0 USD;
+num n = 0;
+prestamo auto { monto: 30000 USD; tea: 12%; plazo: 36; }
+
+{   // --- Declaraciones ---
+    num m2 = 12;
+    dinero s2 = 15000 PEN;
+    tasa t2 = 1.5%;
+    bool b2 = falso;
+    dinero[USD] a2;
+}
+// --- Asignaciones ---
+meses = meses + 1;
+saldo = saldo + 500 PEN;
+tem = 2%;
+meta = verdadero;
+ahorro = 0 USD;
+// --- Expresiones ---
+mostrar saldo * tem;
+mostrar (saldo - 500 PEN) / 2;
+mostrar saldo > 1000 PEN && meses < 36;
+mostrar !meta || meses > 12;
+mostrar convertir(saldo, USD, 0.27);
+// --- Sentencias selectivas ---
+si (meta) mostrar "ok";
+si (saldo > 0 PEN) { mostrar "con saldo"; }
+si (meta) { n = 1; } sino { n = 2; }
+si (!meta || meses > 12) mostrar "revisar";
+si (meta) n = 1; sino si (meses > 6) n = 2;
+// --- Sentencias iterativas ---
+mientras (saldo > 0 PEN) { saldo = saldo - 100 PEN; }
+mientras (!meta && meses < 36) meses = meses + 1;
+para i desde 1 hasta 12 { saldo = saldo + saldo * tem; }
+para k desde 1 hasta meses mostrar k;
+para j desde 0 hasta meses - 1 mostrar j;
+// --- Préstamos y reportes ---
+prestamo moto { monto: 8000 PEN; tea: 24.5%; plazo: 18; }
+dinero cuota1 = cuota(auto);
+mostrar "Interés:", interesTotal(auto);
+cronograma auto;
+dinero[PEN] enSoles = convertir(cuota(auto), PEN, 3.75);

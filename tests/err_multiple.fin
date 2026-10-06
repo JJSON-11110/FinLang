@@ -1,0 +1,6 @@
+// ESPERA: E01 E04 E06 E08
+prestamo auto { monto: 30000 USD; tea: -12%; plazo: 36; }
+dinero total = 100 PEN + 20 USD;
+num n = 3;
+si (n) { mostrar "n distinto de cero"; }
+mostrar saldoFinal;

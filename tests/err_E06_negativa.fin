@@ -1,0 +1,6 @@
+// ESPERA: E06
+prestamo hipoteca {
+    monto: 250000 PEN;
+    tea: -5%;
+    plazo: 240;
+}

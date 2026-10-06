@@ -1,0 +1,3 @@
+// ESPERA: E09
+num n = 3;
+cronograma n;

@@ -1,0 +1,6 @@
+// ESPERA: E07
+prestamo p {
+    monto: 1000 PEN;
+    tea: 10%;
+    plazo: 0;
+}

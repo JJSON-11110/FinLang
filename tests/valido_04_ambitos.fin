@@ -1,0 +1,11 @@
+// ESPERA: OK
+num x = 1;
+{
+    num x = 2;          // sombrea la x externa
+    mostrar x;
+}
+para i desde 1 hasta 3 {
+    num x = i * 2;
+    mostrar x;
+}
+x = x + 1;

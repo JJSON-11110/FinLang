@@ -1,0 +1,4 @@
+// ESPERA: E04
+dinero a = 100 PEN;
+dinero b = 50 USD;
+dinero c = a + b;

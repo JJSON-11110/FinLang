@@ -1,0 +1,3 @@
+// ESPERA: E05
+dinero a = 100 PEN;
+dinero b = a + 5;

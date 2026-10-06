@@ -1,0 +1,13 @@
+// ESPERA: OK
+prestamo auto {
+    monto: 30000 USD;
+    tea: 12%;
+    plazo: 36;
+}
+dinero cuotaMensual = cuota(auto);
+dinero[PEN] cuotaSoles = convertir(cuotaMensual, PEN, 3.75);
+mostrar "Cuota:", cuotaMensual, "Interés total:", interesTotal(auto);
+si (cuotaSoles > 1500 PEN) {
+    mostrar "Cuota alta";
+}
+cronograma auto;

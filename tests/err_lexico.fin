@@ -1,0 +1,2 @@
+// ESPERA: LEX
+num x = 5 # 3;
