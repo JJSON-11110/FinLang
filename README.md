@@ -35,4 +35,4 @@ E08 condición no booleana · E09 no es un préstamo · E10 dinero sin moneda.
 - `semantic.py` analizador semántico (tabla de símbolos por ámbito, tipos con moneda)
 - `main.py` driver · `run_tests.py` + `tests/` casos (`// ESPERA: ...`)
 - `tools/derivaciones.py` genera las derivaciones más a la izquierda a partir de la CFG
-- `docs/` informe (docx/pdf), presentación (pptx/pdf), derivaciones, guion del video, mensaje al profesor
+- `docs/` informe (docx/pdf), presentación (pptx/pdf), derivaciones
